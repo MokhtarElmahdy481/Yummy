@@ -1,0 +1,26 @@
+section.contactus {
+    display: none;
+    .contact-form{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+.form-input{
+    color: $Second;
+    background-color: $Main;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid $Second;
+    box-shadow: 
+        0px 0.5rem 1rem rgba($color: $Second, $alpha: 0.1) ;
+        // 0 0.5rem 1rem rgba($color: $Second, $alpha: 0.1);
+        // 0 .5rem 1rem rgba(255,255,255,.1)!important
+    &:focus-within{
+        outline: none;
+    }
+}
+}
+}

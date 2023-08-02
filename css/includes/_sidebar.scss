@@ -1,0 +1,44 @@
+aside{
+    
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -208.330px;
+    z-index: 99999999;
+    .mune{
+        background-color: $Main;
+        color: $Second;
+        padding-block: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        ul.nav-links{
+            list-style: none;
+            height: 100%;
+            li{
+                cursor: pointer;
+                position: relative;
+                bottom: -300px;
+                opacity: 0;
+                
+            }
+        }
+        .footer{
+            .social-links{
+
+            }
+        }
+
+    }
+    .mune-toggler{
+        padding-block: 15px;
+        background-color: $Second;
+        .close{
+            cursor: pointer;
+            .close-btn{
+                // display: none !important;
+            }
+        }
+    }
+}

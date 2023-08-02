@@ -1,0 +1,23 @@
+section.ingredients{
+    height: 100%;
+    display: none;
+    // padding: 150px;
+    .ingredient{
+        cursor: pointer;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0rem 0rem 1rem rgba($color: #101010, $alpha: 0.8),
+        -0rem -0rem 1rem rgba($color: #101010, $alpha: 0.8)
+        ;
+        i{
+            color: #9ee650ab;
+        }
+        p{
+            &:first-of-type{
+
+                font-size: 28px;
+            }
+            color: $Second;
+        }
+    }
+}

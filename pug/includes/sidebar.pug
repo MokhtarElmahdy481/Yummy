@@ -1,0 +1,23 @@
+aside(class="")
+  div(class="row h-100 m-0")
+    div(class="mune col-10") 
+      -let Links = ["Search" , "Categories" , "Area" , "Ingredients" , "Contact Us"]
+      ul(class="nav-links")
+        - for(let i=0;i<Links.length;i++)
+            li(class="mb-4 item" + (i+1)) #{Links[i]}
+      .footer 
+        .social-links.d-flex.gap-3.mb-2
+          i(class="fa-brands fa-facebook-f")
+          i(class="fa-brands fa-twitter")
+          i(class="fa fa-globe")
+        p Copyright &copy; 2019 All Rights Reserved.
+
+    div(class="mune-toggler col-2 d-flex flex-column justify-content-between align-items-center")
+      .logo: img(src="imgs/logo.png", alt="Yummy" , class="w-100")
+      .close(class="cursor-pointer")
+        i(class="fa fa-xmark close-btn d-none")
+        i(class="fa fa-bars open-btn")
+      .social
+        i(class="fa fa-globe")
+        i(class="fa fa-share-alt")
+      

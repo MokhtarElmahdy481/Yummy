@@ -1,0 +1,58 @@
+section.details{
+    height: 100%;
+    display: none;
+    // padding: 150px;
+    color: $Second;
+    .meal{
+        .meal-image{
+            padding: 5px;
+            background-color: #eee;
+            border-radius: 5px;
+            img{
+                border-radius: 5px;
+            }
+        }
+        .meal-name{
+            text-align: center;
+            font-size: 36px;
+        }
+    }
+    .meal-details {
+        p:first-of-type{
+            text-align: justify;
+        }
+        span{
+            font-weight: bold;
+        }
+        ul{
+            color: $Main;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            &:first-of-type{
+                li {
+                    margin: 15px 5px;
+                    border-radius: 5px;
+                    padding: 10px;
+                    background-color: #D4EDDA;
+                }
+            }
+            &:last-of-type{
+                li {
+                    margin-block: 15px;
+                    margin-left: 5px;
+                    border-radius: 5px;
+                    padding: 10px;
+                    background-color: #F8D7DA;
+                }
+            }
+        }
+        a.youtube{
+            background-color: #F70000;
+            &:hover{
+                background-color: #ca0606;
+
+            }
+        }
+    }
+}

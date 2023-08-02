@@ -1,0 +1,75 @@
+section.contactus.h-100
+    .container.text-start.w-75.h-100
+        form(action="" class="contact-form ")
+            .row.g-3
+                .col-12.col-lg-6
+                    input(
+                        type="text"
+                        placeholder="Enter Your Name"
+                        class="form-input mb-2"
+                        id="userName"
+                        )
+                    p(id="userNameAlert") 
+
+                .col-12.col-lg-6
+                    input(
+                        type="text"
+                        placeholder="Enter Email"
+                        class="form-input mb-2"
+                        id="userMail"
+                        ) 
+                    p(id="userMailAlert") 
+
+                .col-12.col-lg-6
+                    input(
+                        type="text"
+                        placeholder="Enter Phone"
+                        class="form-input mb-2"
+                        id="userPhone"
+                        ) 
+                    p(id="userPhoneAlert") 
+
+                .col-12.col-lg-6
+                    input(
+                        type="text"
+                        placeholder="Enter Age"
+                        class="form-input mb-2"
+                        id="userAge"
+                        ) 
+                    p(id="userAgeAlert") 
+
+                .col-12.col-lg-6
+                    input(
+                        type="password"
+                        placeholder="Enter Password"
+                        class="form-input mb-2"
+                        id="userPassword"
+                        ) 
+                    div.row 
+                        .col-md-6.col-12
+                            p(id="userPasswordAlertMin") 
+                        .col-md-6.col-12
+                            p(id="userPasswordAlertNumbers") 
+                        .col-md-6.col-12
+                            p(id="userPasswordAlertUpper") 
+                        .col-md-6.col-12
+                            p(id="userPasswordAlertLower") 
+                        .col-md-6.col-12
+                            p(id="userPasswordAlertSpecial") 
+
+                .col-12.col-lg-6
+                    input(
+                        type="password"
+                        placeholder="Enter RePassword"
+                        class="form-input mb-2"
+                        id="userRePassword"
+                        )
+                    p(id="userRePasswordAlert") 
+
+                .col-12
+                    button(
+                        type="submit"
+                        class="btn btn-danger disabled"
+                        id="btn-submit"
+                        ) Submit
+

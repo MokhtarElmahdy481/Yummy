@@ -1,0 +1,20 @@
+section.area{
+    height: 100%;
+    display: none;
+    // padding: 150px;
+    .area{
+        cursor: pointer;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0rem 0rem 1rem rgba($color: #101010, $alpha: 0.8),
+        -0rem -0rem 1rem rgba($color: #101010, $alpha: 0.8)
+        ;
+        i{
+            color: #e65a50ab;
+        }
+        p{
+            font-size: 28px;
+            color: $Second;
+        }
+    }
+}

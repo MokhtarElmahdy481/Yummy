@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Yummy</title>
+  </head>
+  <body>
+    <div class="spinner">
+      <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>
+    <aside>
+      <div class="row h-100 m-0">
+        <div class="mune col-10"> 
+          <ul class="nav-links">
+            <li class="mb-4 item1">Search</li>
+            <li class="mb-4 item2">Categories</li>
+            <li class="mb-4 item3">Area</li>
+            <li class="mb-4 item4">Ingredients</li>
+            <li class="mb-4 item5">Contact Us</li>
+          </ul>
+          <div class="footer"> 
+            <div class="social-links d-flex gap-3 mb-2"><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i class="fa fa-globe"></i></div>
+            <p>Copyright &copy; 2019 All Rights Reserved.</p>
+          </div>
+        </div>
+        <div class="mune-toggler col-2 d-flex flex-column justify-content-between align-items-center">
+          <div class="logo"><img class="w-100" src="imgs/logo.png" alt="Yummy"></div>
+          <div class="close cursor-pointer"><i class="fa fa-xmark close-btn d-none"></i><i class="fa fa-bars open-btn"></i></div>
+          <div class="social"><i class="fa fa-globe"></i><i class="fa fa-share-alt"></i></div>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <section class="welcome py-5 ps-4">
+        <div class="container">
+          <div class="row justify-content-center g-5" id="welcome"> </div>
+        </div>
+      </section>
+      <section class="search py-5 ps-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <input class="form-input" type="text" placeholder="Search By Name" id="sName">
+            </div>
+            <div class="col-md-6">
+              <input class="form-input" type="text" placeholder="search By First Letter..." id="sLetter">
+            </div>
+          </div>
+          <div class="row justify-content-center g-5" id="search"></div>
+        </div>
+      </section>
+      <section class="categories py-5 ps-4">
+        <div class="container">
+          <div class="row justify-content-center g-5" id="categories"></div>
+        </div>
+      </section>
+      <section class="categorylist py-5 ps-4">
+        <div class="container">
+          <div class="row justify-content-center g-5" id="categorylist"></div>
+        </div>
+      </section>
+      <section class="area py-5 ps-4">
+        <div class="container">
+          <div class="row justify-content-center g-5" id="area"> </div>
+        </div>
+      </section>
+      <section class="arealist py-5 ps-4">
+        <div class="container">
+          <div class="row justify-content-center g-5" id="arealist"> </div>
+        </div>
+      </section>
+      <section class="ingredients py-5 ps-4">
+        <div class="container">
+          <div class="row justify-content-center g-5" id="ingredients"></div>
+        </div>
+      </section>
+      <section class="ingredientslist py-5 ps-4">
+        <div class="container">
+          <div class="row justify-content-center g-5" id="ingredientslist"> </div>
+        </div>
+      </section>
+      <section class="contactus h-100">
+        <div class="container text-start w-75 h-100">
+          <form class="contact-form " action="">
+            <div class="row g-3">
+              <div class="col-12 col-lg-6">
+                <input class="form-input mb-2" type="text" placeholder="Enter Your Name" id="userName">
+                <p id="userNameAlert"> </p>
+              </div>
+              <div class="col-12 col-lg-6">
+                <input class="form-input mb-2" type="text" placeholder="Enter Email" id="userMail">
+                <p id="userMailAlert"> </p>
+              </div>
+              <div class="col-12 col-lg-6">
+                <input class="form-input mb-2" type="text" placeholder="Enter Phone" id="userPhone">
+                <p id="userPhoneAlert"> </p>
+              </div>
+              <div class="col-12 col-lg-6">
+                <input class="form-input mb-2" type="text" placeholder="Enter Age" id="userAge">
+                <p id="userAgeAlert"> </p>
+              </div>
+              <div class="col-12 col-lg-6">
+                <input class="form-input mb-2" type="password" placeholder="Enter Password" id="userPassword">
+                <div class="row"> 
+                  <div class="col-md-6 col-12">
+                    <p id="userPasswordAlertMin"> </p>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <p id="userPasswordAlertNumbers"> </p>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <p id="userPasswordAlertUpper"> </p>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <p id="userPasswordAlertLower"> </p>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <p id="userPasswordAlertSpecial"> </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <input class="form-input mb-2" type="password" placeholder="Enter RePassword" id="userRePassword">
+                <p id="userRePasswordAlert"> </p>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-danger disabled" type="submit" id="btn-submit">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="details px-5">
+        <div class="container">
+          <div class="row g-4" id="details"></div>
+        </div>
+      </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"> </script>
+    <script src="js/jquery-3.6.1.min.js"> </script>
+    <script src="js/index.js"> </script>
+  </body>
+</html>
